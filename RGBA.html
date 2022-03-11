@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="C:\Users\danid\Documents\Projeto-RGBA\script.js"></script>
+		<link rel="stylesheet" type="text/css" href="C:\Users\danid\Documents\Projeto-RGBA\RGBstyle.css">
+	</head>
+	
+	<body onload="gerarCor()">
+	
+		<br/><br/>
+		<h1> Gerador de cor RGBA</h1>
+		<div id = "code"></div>
+		<div id = "cor"></div>
+		<input type="range" onchange="gerarCor()" id="red" min="0" max="255" value ="0"/> <span id="txtRed">R: 0 </input> <br/>
+		<input type="range" onchange="gerarCor()" id="green" min="0" max="255" value ="0"/> <span id="txtGreen">G: 0 </input><br/>
+		<input type="range" onchange="gerarCor()" id="blue" min="0" max="255" value ="0"/> <span id="txtBlue">B: 0 </input><br/>
+		<input type="range" onchange="gerarCor()" id="opt" min="0" max="255" value ="10"/> <span id="txtOpt">A: 1 </input><br/>
+	</body>
+</html>
